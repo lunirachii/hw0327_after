@@ -29,11 +29,6 @@
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
-@font-face {
-    font-family: 'Open Sans';
-    src: url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
-    font-display: swap;
-}
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -2332,11 +2327,5 @@ blockquote {
 
 }
 
-/* Add image-resize class for gallery images */
-.image-resize img {
-    width: 100%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 300px; /* Set maximum width */
-}
 
 
