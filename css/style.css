@@ -2327,6 +2327,11 @@ blockquote {
 
 }
 
-
+/* Add image-resize class for gallery images */
+.image-resize img {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Set maximum width */
+}
 
 
